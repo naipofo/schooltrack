@@ -1,0 +1,2 @@
+createdb trackdb
+createdb trackdb_shadow

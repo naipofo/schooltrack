@@ -1,0 +1,7 @@
+{
+  "pgSettings": {
+    "search_path": "app_public,app_private,app_hidden,public"
+  },
+
+  "//generatedWith": "2.0.0-rc.2"
+}

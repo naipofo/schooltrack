@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run migrate -w=database\" \"npm run start -w=database\""
+  },
+  "workspaces": [
+    "database"
+  ],
+  "dependencies": {
+    "@graphile/simplify-inflection": "^8.0.0-beta.4",
+    "graphile-migrate": "^2.0.0-rc.2",
+    "postgraphile": "^5.0.0-beta.19"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

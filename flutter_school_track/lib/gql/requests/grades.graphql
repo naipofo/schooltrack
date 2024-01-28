@@ -1,0 +1,8 @@
+query AllGrades {
+  grades {
+    nodes {
+      id
+      value
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "npx postgraphile",
+        "migrate": ". ./.env && npx graphile-migrate watch"
+    }
+}

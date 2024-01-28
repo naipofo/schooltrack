@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    ".gmrc": "jsonc",
+    ".graphqlrc": "yaml"
+  }
+}
